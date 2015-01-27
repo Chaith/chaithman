@@ -1,0 +1,95 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Shipping Validation Suite">
+
+<test name="Mixed Cart with Regular Address Scenario 1">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test" ></class>  
+    </classes>
+</test>
+
+<test name="Mixed Cart with Regular Address Scenario 2">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test" ></class>  
+    </classes>
+</test>
+
+<test name="Mixed Cart with PO Box Address Scenario 3">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test" ></class>  
+    </classes>
+</test>
+
+<test name="Mixed Cart with POBox Regular Taxable and NonTaxable States Scenario 4">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test" ></class>  
+    </classes>
+</test>
+
+<test name="Cart Merg and Signin During Checkout Scenario 5">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 1">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 2">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 3">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 4">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 5">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 6">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 7">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 8">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 9">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test" ></class>  
+    </classes>
+</test>
+
+<test name="Shipping Charges Misc Validation 10">
+    <classes>
+        <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test" ></class>  
+    </classes>
+</test>
+
+</suite>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Place Orders Suite]">
+  <listeners>
+    <listener class-name="com.scholastic.sso.CustomListener"/>
+  </listeners>
+  <test name="Order Books(failed)">
+    <classes>
+      <class name="com.scholastic.sso.placeOrders.OrderBooksTest">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="orderBooksTest" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.placeOrders.OrderBooksTest -->
+    </classes>
+  </test> <!-- Order Books(failed) -->
+</suite> <!-- Failed suite [Place Orders Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <test name="Order Books(failed)">
+    <classes>
+      <class name="com.scholastic.sso.placeOrders.OrderBooksTest">
+        <methods>
+          <include name="orderBooksTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.placeOrders.OrderBooksTest -->
+    </classes>
+  </test> <!-- Order Books(failed) -->
+  <test name="Test 2(failed)">
+    <classes>
+      <class name="com.scholastic.sso.placeOrders.Test2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.placeOrders.Test2 -->
+    </classes>
+  </test> <!-- Test 2(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

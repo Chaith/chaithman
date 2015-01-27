@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Misc Suite">
+
+
+<!-- <test name="Add Edit and Delete Credit Card Information">
+    <classes>
+        <class name="com.scholastic.sso.misc.NewTest" ></class>  
+    </classes>
+</test> -->
+
+
+<!-- <test name="Add Edit and Delete Credit Card Information">
+    <classes>
+        <class name="com.scholastic.sso.misc.AddEditDeleteCreditCardTest" ></class>  
+    </classes>
+</test> -->
+
+<test name="Search by Filter and Validate the Content Returned">
+    <classes>
+        <class name="com.scholastic.sso.misc.SearchValidationTest" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>
+

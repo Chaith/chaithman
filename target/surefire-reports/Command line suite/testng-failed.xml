@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test">
+        <methods>
+          <include name="mixedCartPOBoxAddressSce3Test" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shutDriver"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shippingChargesMisc2Test" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shippingChargesMisc1Test" invocation-numbers="0"/>
+          <include name="shutDriver"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="shippingChargesMisc3Test" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="shippingChargesMisc5Test" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test -->
+      <class name="com.scholastic.sso.misc.StrangeLoopTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="hoverAndClickMenuTabs"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.misc.StrangeLoopTest -->
+      <class name="com.scholastic.sso.placeOrders.OrderBooksTest">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="orderBooksTest" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.placeOrders.OrderBooksTest -->
+      <class name="com.scholastic.sso.misc.AddEditDeleteCreditCardTest">
+        <methods>
+          <include name="addCreditCardInfoTest" invocation-numbers="0"/>
+          <include name="editCreditCardInfoTest"/>
+          <include name="beforeTest"/>
+          <include name="deleteCreditCardInfoTest"/>
+          <include name="shutDriver"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.misc.AddEditDeleteCreditCardTest -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="shippingChargesMisc9Test" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shutDriver"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shippingChargesMisc4Test" invocation-numbers="0"/>
+          <include name="shutDriver"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test -->
+      <class name="com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+          <include name="shutDriver"/>
+          <include name="cartMergSigninDuringCheckoutSce5Test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shutDriver"/>
+          <include name="shippingChargesMisc7Test" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test -->
+      <class name="com.scholastic.sso.misc.SearchValidationTest">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.misc.SearchValidationTest -->
+      <class name="com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test -->
+      <class name="com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+          <include name="shutDriver"/>
+          <include name="mixedCartRegularAddressSce1Test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test -->
+      <class name="com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="mixedCartRegularAddressSce2Test" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test">
+        <methods>
+          <include name="shutDriver"/>
+          <include name="shippingChargesMisc6Test" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test">
+        <methods>
+          <include name="shippingChargesMisc10Test" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shutDriver"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test -->
+      <class name="com.scholastic.sso.misc.NewTest">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.misc.NewTest -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shutDriver"/>
+          <include name="shippingChargesMisc8Test" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test -->
+      <class name="com.scholastic.sso.placeOrders.QuickLookOrderItemsTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="quickLookOrderItemsTest" invocation-numbers="0"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="shutDriver"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.placeOrders.QuickLookOrderItemsTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

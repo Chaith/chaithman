@@ -1,0 +1,12 @@
+<suite name="SSO Project">
+<listeners>
+    <listener class-name="com.scholastic.sso.CustomListener" />
+</listeners>
+  <suite-files>
+   <suite-file path="./Misc.xml" />
+   <!--  <suite-file path="./PlaceOrders.xml" /> -->
+   <!--  <suite-file path="./ShippingValidation.xml" /> -->
+  
+   
+  </suite-files>
+</suite>

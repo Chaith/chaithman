@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83334" started-at="2015-01-27T18:35:58Z" finished-at="2015-01-27T18:37:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83334" started-at="2015-01-27T18:35:58Z" finished-at="2015-01-27T18:37:22Z">
+      <class name="com.scholastic.sso.misc.SearchValidationTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3551a94]" name="beforeTest" is-config="true" duration-ms="7524" started-at="2015-01-27T13:35:58Z" finished-at="2015-01-27T13:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchValidationTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3551a94]" name="searchValidationTest" duration-ms="72364" started-at="2015-01-27T13:36:07Z" data-provider="MiscDataProvider" finished-at="2015-01-27T13:37:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidationTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3551a94]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-01-27T13:37:20Z" finished-at="2015-01-27T13:37:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchValidationTest status=SUCCESS method=SearchValidationTest.searchValidationTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3551a94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3551a94]" name="shutDriver" is-config="true" duration-ms="2012" started-at="2015-01-27T13:37:20Z" finished-at="2015-01-27T13:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDriver -->
+      </class> <!-- com.scholastic.sso.misc.SearchValidationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

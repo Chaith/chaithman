@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Place Orders Suite">
+
+
+
+
+<test name="Order Books">
+    <classes>
+        <class name="com.scholastic.sso.placeOrders.OrderBooksTest" ></class>  
+    </classes>
+</test>
+
+<!-- <test name="Order Books via Quick Look">
+    <classes>
+        <class name="com.scholastic.sso.placeOrders.QuickLookOrderItemsTest" ></class>  
+    </classes>
+</test> -->
+
+
+
+</suite>
+

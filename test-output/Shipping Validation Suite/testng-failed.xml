@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Shipping Validation Suite]">
+  <listeners>
+    <listener class-name="com.scholastic.sso.CustomListener"/>
+  </listeners>
+  <test name="Mixed Cart with Regular Address Scenario 1(failed)">
+    <classes>
+      <class name="com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="shutDriver"/>
+          <include name="mixedCartRegularAddressSce1Test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test -->
+    </classes>
+  </test> <!-- Mixed Cart with Regular Address Scenario 1(failed) -->
+</suite> <!-- Failed suite [Shipping Validation Suite] -->
