@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
-              <span class="suite-name border-skipped">Command line suite</span>
+              <span class="suite-name border-failed">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">22 methods,  21 skipped,  1 passed</span>
+                    <span class="method-stats">23 methods, 1 failed,  21 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.scholastic.sso.misc.StoriaSamplerEReaderTest" hash-for-method="storiaSamplerEReaderTest({Runmode=Y})">storiaSamplerEReaderTest({Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -230,42 +244,41 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-skipped">
+          <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.scholastic.sso.misc.StoriaSamplerEReaderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="mixedCartPOBoxAddressSce3Test({Runmode=N})">
-                  </a> <!-- mixedCartPOBoxAddressSce3Test({Runmode=N}) -->
-                  <span class="method-name">mixedCartPOBoxAddressSce3Test</span>
-                  <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - MixedCartPOBoxAddressSce3Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test.mixedCartPOBoxAddressSce3Test(MixedCartPOBoxAddressSce3Test.java:46)
-... Removed 34 stack frames
+                  <a name="storiaSamplerEReaderTest({Runmode=Y})">
+                  </a> <!-- storiaSamplerEReaderTest({Runmode=Y}) -->
+                  <span class="method-name">storiaSamplerEReaderTest</span>
+                  <span class="parameters">({Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.scholastic.sso.misc.StoriaSamplerEReaderTest.storiaSamplerEReaderTest(StoriaSamplerEReaderTest.java:91)
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test</span>
+              <span class="class-name">com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shippingChargesMisc2Test({Runmode=N})">
-                  </a> <!-- shippingChargesMisc2Test({Runmode=N}) -->
-                  <span class="method-name">shippingChargesMisc2Test</span>
+                  <a name="cartMergSigninDuringCheckoutSce5Test({Runmode=N})">
+                  </a> <!-- cartMergSigninDuringCheckoutSce5Test({Runmode=N}) -->
+                  <span class="method-name">cartMergSigninDuringCheckoutSce5Test</span>
                   <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc2Test - inside the suite - ShippingValidationSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - CartMergSigninDuringCheckoutSce5Test - inside the suite - ShippingValidationSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test.shippingChargesMisc2Test(ShippingChargesMisc2Test.java:39)
+	at com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test.cartMergSigninDuringCheckoutSce5Test(CartMergSigninDuringCheckoutSce5Test.java:45)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -296,18 +309,18 @@
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test</span>
+              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shippingChargesMisc5Test({Runmode=N})">
-                  </a> <!-- shippingChargesMisc5Test({Runmode=N}) -->
-                  <span class="method-name">shippingChargesMisc5Test</span>
+                  <a name="shippingChargesMisc10Test({Runmode=N})">
+                  </a> <!-- shippingChargesMisc10Test({Runmode=N}) -->
+                  <span class="method-name">shippingChargesMisc10Test</span>
                   <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc5Test - inside the suite - ShippingValidationSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc10Test - inside the suite - ShippingValidationSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test.shippingChargesMisc5Test(ShippingChargesMisc5Test.java:44)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test.shippingChargesMisc10Test(ShippingChargesMisc10Test.java:42)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -317,18 +330,39 @@
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test</span>
+              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shippingChargesMisc3Test({Runmode=N})">
-                  </a> <!-- shippingChargesMisc3Test({Runmode=N}) -->
-                  <span class="method-name">shippingChargesMisc3Test</span>
+                  <a name="shippingChargesMisc4Test({Runmode=N})">
+                  </a> <!-- shippingChargesMisc4Test({Runmode=N}) -->
+                  <span class="method-name">shippingChargesMisc4Test</span>
                   <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc3Test - inside the suite - ShippingValidationSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc4Test - inside the suite - ShippingValidationSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test.shippingChargesMisc3Test(ShippingChargesMisc3Test.java:44)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test.shippingChargesMisc4Test(ShippingChargesMisc4Test.java:44)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shippingChargesMisc2Test({Runmode=N})">
+                  </a> <!-- shippingChargesMisc2Test({Runmode=N}) -->
+                  <span class="method-name">shippingChargesMisc2Test</span>
+                  <span class="parameters">({Runmode=N})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc2Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test.shippingChargesMisc2Test(ShippingChargesMisc2Test.java:39)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -350,27 +384,6 @@
                   <div class="stack-trace">org.testng.SkipException: Skipping the test - StrangeLoopTest - inside the suite - MiscSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
 	at com.scholastic.sso.misc.StrangeLoopTest.strangeLoopTest(StrangeLoopTest.java:30)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.placeOrders.OrderBooksTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="orderBooksTest({Runmode=Y})">
-                  </a> <!-- orderBooksTest({Runmode=Y}) -->
-                  <span class="method-name">orderBooksTest</span>
-                  <span class="parameters">({Runmode=Y})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - OrderBooksTest - inside the suite - PlaceOrdersSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.placeOrders.OrderBooksTest.orderBooksTest(OrderBooksTest.java:51)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -415,18 +428,18 @@
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test</span>
+              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shippingChargesMisc9Test({Runmode=N})">
-                  </a> <!-- shippingChargesMisc9Test({Runmode=N}) -->
-                  <span class="method-name">shippingChargesMisc9Test</span>
+                  <a name="shippingChargesMisc8Test({Runmode=N})">
+                  </a> <!-- shippingChargesMisc8Test({Runmode=N}) -->
+                  <span class="method-name">shippingChargesMisc8Test</span>
                   <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc9Test - inside the suite - ShippingValidationSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc8Test - inside the suite - ShippingValidationSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test.shippingChargesMisc9Test(ShippingChargesMisc9Test.java:42)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test.shippingChargesMisc8Test(ShippingChargesMisc8Test.java:44)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -436,18 +449,18 @@
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test</span>
+              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shippingChargesMisc4Test({Runmode=N})">
-                  </a> <!-- shippingChargesMisc4Test({Runmode=N}) -->
-                  <span class="method-name">shippingChargesMisc4Test</span>
+                  <a name="shippingChargesMisc3Test({Runmode=N})">
+                  </a> <!-- shippingChargesMisc3Test({Runmode=N}) -->
+                  <span class="method-name">shippingChargesMisc3Test</span>
                   <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc4Test - inside the suite - ShippingValidationSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc3Test - inside the suite - ShippingValidationSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test.shippingChargesMisc4Test(ShippingChargesMisc4Test.java:44)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test.shippingChargesMisc3Test(ShippingChargesMisc3Test.java:44)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -457,102 +470,18 @@
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test</span>
+              <span class="class-name">com.scholastic.sso.placeOrders.QuickLookOrderItemsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="cartMergSigninDuringCheckoutSce5Test({Runmode=N})">
-                  </a> <!-- cartMergSigninDuringCheckoutSce5Test({Runmode=N}) -->
-                  <span class="method-name">cartMergSigninDuringCheckoutSce5Test</span>
-                  <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - CartMergSigninDuringCheckoutSce5Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test.cartMergSigninDuringCheckoutSce5Test(CartMergSigninDuringCheckoutSce5Test.java:45)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="shippingChargesMisc7Test({Runmode=N})">
-                  </a> <!-- shippingChargesMisc7Test({Runmode=N}) -->
-                  <span class="method-name">shippingChargesMisc7Test</span>
-                  <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc7Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test.shippingChargesMisc7Test(ShippingChargesMisc7Test.java:44)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="mixedCartRegularAddressSce1Test({Runmode=Y})">
-                  </a> <!-- mixedCartRegularAddressSce1Test({Runmode=Y}) -->
-                  <span class="method-name">mixedCartRegularAddressSce1Test</span>
+                  <a name="quickLookOrderItemsTest({Runmode=Y})">
+                  </a> <!-- quickLookOrderItemsTest({Runmode=Y}) -->
+                  <span class="method-name">quickLookOrderItemsTest</span>
                   <span class="parameters">({Runmode=Y})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - MixedCartRegularAddressSce1Test - inside the suite - ShippingValidationSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - QuickLookOrderItemsTest - inside the suite - PlaceOrdersSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test.mixedCartRegularAddressSce1Test(MixedCartRegularAddressSce1Test.java:48)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test({Runmode=N})">
-                  </a> <!-- mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test({Runmode=N}) -->
-                  <span class="method-name">mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test</span>
-                  <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test.mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test(MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test.java:45)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
-          <div class="suite-Command_line_suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="mixedCartRegularAddressSce2Test({Runmode=Y})">
-                  </a> <!-- mixedCartRegularAddressSce2Test({Runmode=Y}) -->
-                  <span class="method-name">mixedCartRegularAddressSce2Test</span>
-                  <span class="parameters">({Runmode=Y})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - MixedCartRegularAddressSce2Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test.mixedCartRegularAddressSce2Test(MixedCartRegularAddressSce2Test.java:45)
+	at com.scholastic.sso.placeOrders.QuickLookOrderItemsTest.quickLookOrderItemsTest(QuickLookOrderItemsTest.java:42)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -583,18 +512,18 @@
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test</span>
+              <span class="class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shippingChargesMisc10Test({Runmode=N})">
-                  </a> <!-- shippingChargesMisc10Test({Runmode=N}) -->
-                  <span class="method-name">shippingChargesMisc10Test</span>
+                  <a name="mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test({Runmode=N})">
+                  </a> <!-- mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test({Runmode=N}) -->
+                  <span class="method-name">mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test</span>
                   <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc10Test - inside the suite - ShippingValidationSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test - inside the suite - ShippingValidationSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test.shippingChargesMisc10Test(ShippingChargesMisc10Test.java:42)
+	at com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test.mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test(MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test.java:45)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -604,18 +533,18 @@
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test</span>
+              <span class="class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shippingChargesMisc8Test({Runmode=N})">
-                  </a> <!-- shippingChargesMisc8Test({Runmode=N}) -->
-                  <span class="method-name">shippingChargesMisc8Test</span>
+                  <a name="mixedCartPOBoxAddressSce3Test({Runmode=N})">
+                  </a> <!-- mixedCartPOBoxAddressSce3Test({Runmode=N}) -->
+                  <span class="method-name">mixedCartPOBoxAddressSce3Test</span>
                   <span class="parameters">({Runmode=N})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc8Test - inside the suite - ShippingValidationSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - MixedCartPOBoxAddressSce3Test - inside the suite - ShippingValidationSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test.shippingChargesMisc8Test(ShippingChargesMisc8Test.java:44)
+	at com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test.mixedCartPOBoxAddressSce3Test(MixedCartPOBoxAddressSce3Test.java:46)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -625,18 +554,123 @@
           <div class="suite-Command_line_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">com.scholastic.sso.placeOrders.QuickLookOrderItemsTest</span>
+              <span class="class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="quickLookOrderItemsTest({Runmode=Y})">
-                  </a> <!-- quickLookOrderItemsTest({Runmode=Y}) -->
-                  <span class="method-name">quickLookOrderItemsTest</span>
+                  <a name="mixedCartRegularAddressSce1Test({Runmode=Y})">
+                  </a> <!-- mixedCartRegularAddressSce1Test({Runmode=Y}) -->
+                  <span class="method-name">mixedCartRegularAddressSce1Test</span>
                   <span class="parameters">({Runmode=Y})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test - QuickLookOrderItemsTest - inside the suite - PlaceOrdersSuite
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - MixedCartRegularAddressSce1Test - inside the suite - ShippingValidationSuite
 	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.placeOrders.QuickLookOrderItemsTest.quickLookOrderItemsTest(QuickLookOrderItemsTest.java:42)
+	at com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test.mixedCartRegularAddressSce1Test(MixedCartRegularAddressSce1Test.java:48)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shippingChargesMisc9Test({Runmode=N})">
+                  </a> <!-- shippingChargesMisc9Test({Runmode=N}) -->
+                  <span class="method-name">shippingChargesMisc9Test</span>
+                  <span class="parameters">({Runmode=N})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc9Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test.shippingChargesMisc9Test(ShippingChargesMisc9Test.java:42)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shippingChargesMisc5Test({Runmode=N})">
+                  </a> <!-- shippingChargesMisc5Test({Runmode=N}) -->
+                  <span class="method-name">shippingChargesMisc5Test</span>
+                  <span class="parameters">({Runmode=N})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc5Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test.shippingChargesMisc5Test(ShippingChargesMisc5Test.java:44)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mixedCartRegularAddressSce2Test({Runmode=Y})">
+                  </a> <!-- mixedCartRegularAddressSce2Test({Runmode=Y}) -->
+                  <span class="method-name">mixedCartRegularAddressSce2Test</span>
+                  <span class="parameters">({Runmode=Y})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - MixedCartRegularAddressSce2Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test.mixedCartRegularAddressSce2Test(MixedCartRegularAddressSce2Test.java:45)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shippingChargesMisc7Test({Runmode=N})">
+                  </a> <!-- shippingChargesMisc7Test({Runmode=N}) -->
+                  <span class="method-name">shippingChargesMisc7Test</span>
+                  <span class="parameters">({Runmode=N})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - ShippingChargesMisc7Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test.shippingChargesMisc7Test(ShippingChargesMisc7Test.java:44)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scholastic.sso.placeOrders.OrderBooksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderBooksTest({Runmode=Y})">
+                  </a> <!-- orderBooksTest({Runmode=Y}) -->
+                  <span class="method-name">orderBooksTest</span>
+                  <span class="parameters">({Runmode=Y})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test - OrderBooksTest - inside the suite - PlaceOrdersSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.placeOrders.OrderBooksTest.orderBooksTest(OrderBooksTest.java:51)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -673,6 +707,7 @@
       &lt;class name=&quot;com.scholastic.sso.misc.AddEditDeleteCreditCardTest&quot;/&gt;
       &lt;class name=&quot;com.scholastic.sso.misc.NewTest&quot;/&gt;
       &lt;class name=&quot;com.scholastic.sso.misc.SearchValidationTest&quot;/&gt;
+      &lt;class name=&quot;com.scholastic.sso.misc.StoriaSamplerEReaderTest&quot;/&gt;
       &lt;class name=&quot;com.scholastic.sso.misc.StrangeLoopTest&quot;/&gt;
       &lt;class name=&quot;com.scholastic.sso.placeOrders.OrderBooksTest&quot;/&gt;
       &lt;class name=&quot;com.scholastic.sso.placeOrders.QuickLookOrderItemsTest&quot;/&gt;
@@ -707,7 +742,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (24 classes)</span>
+                <span class="test-name">Command line test (25 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -733,95 +768,99 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(22);
+data.addRows(23);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'searchValidationTest')
 data.setCell(0, 2, 'com.scholastic.sso.misc.SearchValidationTest')
-data.setCell(0, 3, 65422);
+data.setCell(0, 3, 47995);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'shippingChargesMisc4Test')
-data.setCell(1, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test')
-data.setCell(1, 3, 359);
+data.setCell(1, 1, 'storiaSamplerEReaderTest')
+data.setCell(1, 2, 'com.scholastic.sso.misc.StoriaSamplerEReaderTest')
+data.setCell(1, 3, 39665);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test')
 data.setCell(2, 2, 'com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test')
-data.setCell(2, 3, 277);
+data.setCell(2, 3, 296);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'mixedCartRegularAddressSce2Test')
-data.setCell(3, 2, 'com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test')
-data.setCell(3, 3, 156);
+data.setCell(3, 1, 'shippingChargesMisc4Test')
+data.setCell(3, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test')
+data.setCell(3, 3, 172);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'cartMergSigninDuringCheckoutSce5Test')
-data.setCell(4, 2, 'com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test')
-data.setCell(4, 3, 125);
+data.setCell(4, 1, 'orderBooksTest')
+data.setCell(4, 2, 'com.scholastic.sso.placeOrders.OrderBooksTest')
+data.setCell(4, 3, 140);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'strangeLoopTest')
-data.setCell(5, 2, 'com.scholastic.sso.misc.StrangeLoopTest')
-data.setCell(5, 3, 120);
+data.setCell(5, 1, 'mixedCartPOBoxAddressSce3Test')
+data.setCell(5, 2, 'com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test')
+data.setCell(5, 3, 140);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'quickLookOrderItemsTest')
-data.setCell(6, 2, 'com.scholastic.sso.placeOrders.QuickLookOrderItemsTest')
-data.setCell(6, 3, 109);
+data.setCell(6, 1, 'mixedCartRegularAddressSce2Test')
+data.setCell(6, 2, 'com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test')
+data.setCell(6, 3, 140);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'shippingChargesMisc3Test')
-data.setCell(7, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test')
-data.setCell(7, 3, 84);
+data.setCell(7, 1, 'shippingChargesMisc9Test')
+data.setCell(7, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test')
+data.setCell(7, 3, 93);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'mixedCartRegularAddressSce1Test')
 data.setCell(8, 2, 'com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test')
-data.setCell(8, 3, 78);
+data.setCell(8, 3, 93);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'addCreditCardInfoTest')
-data.setCell(9, 2, 'com.scholastic.sso.misc.AddEditDeleteCreditCardTest')
-data.setCell(9, 3, 67);
+data.setCell(9, 1, 'shippingChargesMisc1Test')
+data.setCell(9, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test')
+data.setCell(9, 3, 93);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'shippingChargesMisc10Test')
-data.setCell(10, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test')
-data.setCell(10, 3, 54);
+data.setCell(10, 1, 'quickLookOrderItemsTest')
+data.setCell(10, 2, 'com.scholastic.sso.placeOrders.QuickLookOrderItemsTest')
+data.setCell(10, 3, 78);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'shippingChargesMisc1Test')
-data.setCell(11, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test')
-data.setCell(11, 3, 50);
+data.setCell(11, 1, 'shippingChargesMisc3Test')
+data.setCell(11, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test')
+data.setCell(11, 3, 63);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'shippingChargesMisc9Test')
-data.setCell(12, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test')
-data.setCell(12, 3, 41);
+data.setCell(12, 1, 'shippingChargesMisc10Test')
+data.setCell(12, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test')
+data.setCell(12, 3, 62);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'orderBooksTest')
-data.setCell(13, 2, 'com.scholastic.sso.placeOrders.OrderBooksTest')
-data.setCell(13, 3, 39);
+data.setCell(13, 1, 'cartMergSigninDuringCheckoutSce5Test')
+data.setCell(13, 2, 'com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test')
+data.setCell(13, 3, 62);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'shippingChargesMisc7Test')
-data.setCell(14, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test')
-data.setCell(14, 3, 38);
+data.setCell(14, 1, 'shippingChargesMisc5Test')
+data.setCell(14, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test')
+data.setCell(14, 3, 31);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'mixedCartPOBoxAddressSce3Test')
-data.setCell(15, 2, 'com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test')
-data.setCell(15, 3, 37);
+data.setCell(15, 1, 'shippingChargesMisc6Test')
+data.setCell(15, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test')
+data.setCell(15, 3, 31);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'shippingChargesMisc6Test')
-data.setCell(16, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test')
-data.setCell(16, 3, 35);
+data.setCell(16, 1, 'strangeLoopTest')
+data.setCell(16, 2, 'com.scholastic.sso.misc.StrangeLoopTest')
+data.setCell(16, 3, 31);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'shippingChargesMisc5Test')
-data.setCell(17, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test')
-data.setCell(17, 3, 33);
+data.setCell(17, 1, 'addCreditCardInfoTest')
+data.setCell(17, 2, 'com.scholastic.sso.misc.AddEditDeleteCreditCardTest')
+data.setCell(17, 3, 31);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'shippingChargesMisc8Test')
-data.setCell(18, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test')
-data.setCell(18, 3, 30);
+data.setCell(18, 1, 'shippingChargesMisc7Test')
+data.setCell(18, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test')
+data.setCell(18, 3, 31);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'shippingChargesMisc2Test')
-data.setCell(19, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test')
-data.setCell(19, 3, 30);
+data.setCell(19, 1, 'shippingChargesMisc8Test')
+data.setCell(19, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test')
+data.setCell(19, 3, 31);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'editCreditCardInfoTest')
-data.setCell(20, 2, 'com.scholastic.sso.misc.AddEditDeleteCreditCardTest')
-data.setCell(20, 3, 1);
+data.setCell(20, 1, 'shippingChargesMisc2Test')
+data.setCell(20, 2, 'com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test')
+data.setCell(20, 3, 15);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'deleteCreditCardInfoTest')
 data.setCell(21, 2, 'com.scholastic.sso.misc.AddEditDeleteCreditCardTest')
 data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'editCreditCardInfoTest')
+data.setCell(22, 2, 'com.scholastic.sso.misc.AddEditDeleteCreditCardTest')
+data.setCell(22, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
@@ -862,476 +901,496 @@ return data;
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.misc.NewTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.placeOrders.QuickLookOrderItemsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.misc.SearchValidationTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.misc.StoriaSamplerEReaderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.misc.StrangeLoopTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">5634 ms</span>
+                <span class="method-start">9620 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">cartMergSigninDuringCheckoutSce5Test({Runmode=N})</span>
-                <span class="method-start">6791 ms</span>
+                <span class="method-name">mixedCartPOBoxAddressSce3Test({Runmode=N})</span>
+                <span class="method-start">10977 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=cartMergSigninDuringCheckoutSce5Test status=SKIP method=CartMergSigninDuringCheckou...)</span>
-                <span class="method-start">6916 ms</span>
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=mixedCartPOBoxAddressSce3Test status=SKIP method=MixedCartPOBoxAddressSce3Test.mixe...)</span>
+                <span class="method-start">11133 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test({Runmode=N})</span>
-                <span class="method-start">7087 ms</span>
+                <span class="method-start">11211 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test status=SKIP method=MixedCart...)</span>
-                <span class="method-start">7364 ms</span>
+                <span class="method-start">11507 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">mixedCartRegularAddressSce1Test({Runmode=Y})</span>
-                <span class="method-start">7427 ms</span>
+                <span class="method-start">11617 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=mixedCartRegularAddressSce1Test status=SKIP method=MixedCartRegularAddressSce1Test....)</span>
-                <span class="method-start">7505 ms</span>
+                <span class="method-start">11710 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">mixedCartRegularAddressSce2Test({Runmode=Y})</span>
-                <span class="method-start">7536 ms</span>
+                <span class="method-start">11757 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=mixedCartRegularAddressSce2Test status=SKIP method=MixedCartRegularAddressSce2Test....)</span>
-                <span class="method-start">7692 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.placeOrders.QuickLookOrderItemsTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">quickLookOrderItemsTest({Runmode=Y})</span>
-                <span class="method-start">7723 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=quickLookOrderItemsTest status=SKIP method=QuickLookOrderItemsTest.quickLookOrderIt...)</span>
-                <span class="method-start">7832 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.misc.SearchValidationTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">searchValidationTest({Runmode=Y})</span>
-                <span class="method-start">7879 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=searchValidationTest status=SUCCESS method=SearchValidationTest.searchValidationTes...)</span>
-                <span class="method-start">73302 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shippingChargesMisc10Test({Runmode=N})</span>
-                <span class="method-start">73322 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc10Test status=SKIP method=ShippingChargesMisc10Test.shippingChar...)</span>
-                <span class="method-start">73376 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shippingChargesMisc4Test({Runmode=N})</span>
-                <span class="method-start">73449 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc4Test status=SKIP method=ShippingChargesMisc4Test.shippingCharge...)</span>
-                <span class="method-start">73809 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shippingChargesMisc6Test({Runmode=N})</span>
-                <span class="method-start">73834 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc6Test status=SKIP method=ShippingChargesMisc6Test.shippingCharge...)</span>
-                <span class="method-start">73870 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shippingChargesMisc7Test({Runmode=N})</span>
-                <span class="method-start">73912 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc7Test status=SKIP method=ShippingChargesMisc7Test.shippingCharge...)</span>
-                <span class="method-start">73951 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shippingChargesMisc8Test({Runmode=N})</span>
-                <span class="method-start">73986 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc8Test status=SKIP method=ShippingChargesMisc8Test.shippingCharge...)</span>
-                <span class="method-start">74016 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shippingChargesMisc9Test({Runmode=N})</span>
-                <span class="method-start">74034 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc9Test status=SKIP method=ShippingChargesMisc9Test.shippingCharge...)</span>
-                <span class="method-start">74076 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shippingChargesMisc3Test({Runmode=N})</span>
-                <span class="method-start">74107 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc3Test status=SKIP method=ShippingChargesMisc3Test.shippingCharge...)</span>
-                <span class="method-start">74191 ms</span>
+                <span class="method-start">11897 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.placeOrders.OrderBooksTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">74210 ms</span>
+                <span class="method-start">11929 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">orderBooksTest({Runmode=Y})</span>
-                <span class="method-start">74210 ms</span>
+                <span class="method-start">11929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">74249 ms</span>
+                <span class="method-start">12069 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.scholastic.sso.placeOrders.QuickLookOrderItemsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">shippingChargesMisc1Test({Runmode=N})</span>
-                <span class="method-start">81699 ms</span>
+                <span class="method-name">quickLookOrderItemsTest({Runmode=Y})</span>
+                <span class="method-start">38269 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc1Test status=SKIP method=ShippingChargesMisc1Test.shippingCharge...)</span>
-                <span class="method-start">81750 ms</span>
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=quickLookOrderItemsTest status=SKIP method=QuickLookOrderItemsTest.quickLookOrderIt...)</span>
+                <span class="method-start">38347 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.misc.SearchValidationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchValidationTest({Runmode=Y})</span>
+                <span class="method-start">38363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=searchValidationTest status=SUCCESS method=SearchValidationTest.searchValidationTes...)</span>
+                <span class="method-start">86358 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shippingChargesMisc3Test({Runmode=N})</span>
+                <span class="method-start">86451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc3Test status=SKIP method=ShippingChargesMisc3Test.shippingCharge...)</span>
+                <span class="method-start">86514 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">shippingChargesMisc5Test({Runmode=N})</span>
-                <span class="method-start">81782 ms</span>
+                <span class="method-start">86545 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc5Test status=SKIP method=ShippingChargesMisc5Test.shippingCharge...)</span>
-                <span class="method-start">81816 ms</span>
+                <span class="method-start">86576 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">mixedCartPOBoxAddressSce3Test({Runmode=N})</span>
-                <span class="method-start">81896 ms</span>
+                <span class="method-name">shippingChargesMisc6Test({Runmode=N})</span>
+                <span class="method-start">86592 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">takeScreenShotOnFailure([TestResult name=mixedCartPOBoxAddressSce3Test status=SKIP method=MixedCartPOBoxAddressSce3Test.mixe...)</span>
-                <span class="method-start">81934 ms</span>
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc6Test status=SKIP method=ShippingChargesMisc6Test.shippingCharge...)</span>
+                <span class="method-start">86623 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shippingChargesMisc7Test({Runmode=N})</span>
+                <span class="method-start">86654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc7Test status=SKIP method=ShippingChargesMisc7Test.shippingCharge...)</span>
+                <span class="method-start">86685 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shippingChargesMisc8Test({Runmode=N})</span>
+                <span class="method-start">86701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc8Test status=SKIP method=ShippingChargesMisc8Test.shippingCharge...)</span>
+                <span class="method-start">86732 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shippingChargesMisc9Test({Runmode=N})</span>
+                <span class="method-start">86748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc9Test status=SKIP method=ShippingChargesMisc9Test.shippingCharge...)</span>
+                <span class="method-start">86841 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shippingChargesMisc10Test({Runmode=N})</span>
+                <span class="method-start">86873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc10Test status=SKIP method=ShippingChargesMisc10Test.shippingChar...)</span>
+                <span class="method-start">86935 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shippingChargesMisc1Test({Runmode=N})</span>
+                <span class="method-start">86982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc1Test status=SKIP method=ShippingChargesMisc1Test.shippingCharge...)</span>
+                <span class="method-start">87075 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.misc.StoriaSamplerEReaderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">storiaSamplerEReaderTest({Runmode=Y})</span>
+                <span class="method-start">87185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=storiaSamplerEReaderTest status=FAILURE method=StoriaSamplerEReaderTest.storiaSampl...)</span>
+                <span class="method-start">126852 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shippingChargesMisc4Test({Runmode=N})</span>
+                <span class="method-start">128104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc4Test status=SKIP method=ShippingChargesMisc4Test.shippingCharge...)</span>
+                <span class="method-start">128276 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">shippingChargesMisc2Test({Runmode=N})</span>
-                <span class="method-start">81973 ms</span>
+                <span class="method-start">128292 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">takeScreenShotOnFailure([TestResult name=shippingChargesMisc2Test status=SKIP method=ShippingChargesMisc2Test.shippingCharge...)</span>
-                <span class="method-start">82003 ms</span>
+                <span class="method-start">128307 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cartMergSigninDuringCheckoutSce5Test({Runmode=N})</span>
+                <span class="method-start">128323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenShotOnFailure([TestResult name=cartMergSigninDuringCheckoutSce5Test status=SKIP method=CartMergSigninDuringCheckou...)</span>
+                <span class="method-start">128385 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.misc.StrangeLoopTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">strangeLoopTest({Runmode=Y})</span>
-                <span class="method-start">82029 ms</span>
+                <span class="method-start">128401 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.misc.AddEditDeleteCreditCardTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">82169 ms</span>
+                <span class="method-start">128448 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addCreditCardInfoTest({Runmode=Y})</span>
-                <span class="method-start">82170 ms</span>
+                <span class="method-start">128448 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">82237 ms</span>
+                <span class="method-start">128479 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">84261 ms</span>
+                <span class="method-start">129493 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">85261 ms</span>
+                <span class="method-start">130507 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">86261 ms</span>
+                <span class="method-start">131521 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">87261 ms</span>
+                <span class="method-start">132536 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">88261 ms</span>
+                <span class="method-start">133550 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.placeOrders.QuickLookOrderItemsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">89262 ms</span>
+                <span class="method-start">134550 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.misc.SearchValidationTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">90262 ms</span>
+                <span class="method-start">135551 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">91262 ms</span>
+                <span class="method-start">136566 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">92262 ms</span>
+                <span class="method-start">137595 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">93262 ms</span>
+                <span class="method-start">138609 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">94262 ms</span>
+                <span class="method-start">139623 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">95262 ms</span>
+                <span class="method-start">140626 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">96262 ms</span>
+                <span class="method-start">141640 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">97262 ms</span>
+                <span class="method-start">142654 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">98262 ms</span>
+                <span class="method-start">143668 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">99263 ms</span>
+                <span class="method-start">144682 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">100263 ms</span>
+                <span class="method-start">145696 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.scholastic.sso.misc.StrangeLoopTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">shutDriver</span>
-                <span class="method-start">101263 ms</span>
+                <span class="method-start">146710 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

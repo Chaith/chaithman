@@ -115,10 +115,12 @@ public class CustomListener extends TestListenerAdapter implements IInvokedMetho
 		if(resultFolderName==null){// first Suite
 			Date d = new Date();
 			resultFolderName=d.toString().replace(":", "_");
-			File f = new File(System.getProperty("user.dir")+"//target//reports//"+resultFolderName);
+//			File f = new File(System.getProperty("user.dir")+"//target//reports//"+resultFolderName); //Uncomment this and comment or delete the next line
+			File f = new File("C:\\Users\\chaitman\\Desktop\\SSO\\SSOFwk\\sso_automation\\"+resultFolderName);
 			f.mkdir();
 			// change
-			resultFilePath=System.getProperty("user.dir")+"//target//reports//"+resultFolderName+"//Report.xlsx";
+//			resultFilePath=System.getProperty("user.dir")+"//target//reports//"+resultFolderName+"//Report.xlsx"; //Uncomment this and comment or delete the next line
+			resultFilePath="C:\\Users\\chaitman\\Desktop\\SSO\\SSOFwk\\sso_automation\\"+resultFolderName+"//Report.xlsx";
 			File src = new File(System.getProperty("user.dir")+"//target//reports//ReportTemplate.xlsx");
 			File dest = new File(resultFilePath);
 			try {

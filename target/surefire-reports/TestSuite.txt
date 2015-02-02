@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 21, Time elapsed: 103.506 sec
+Tests run: 23, Failures: 1, Errors: 0, Skipped: 21, Time elapsed: 149.174 sec <<< FAILURE!
+storiaSamplerEReaderTest(com.scholastic.sso.misc.StoriaSamplerEReaderTest)  Time elapsed: 39.609 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.scholastic.sso.misc.StoriaSamplerEReaderTest.storiaSamplerEReaderTest(StoriaSamplerEReaderTest.java:91)
+

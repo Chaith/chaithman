@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="21" failed="0" total="22" passed="1">
+<testng-results skipped="21" failed="1" total="23" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="102263" started-at="2015-01-28T16:10:38Z" finished-at="2015-01-28T16:12:20Z">
+  <suite name="Command line suite" duration-ms="147724" started-at="2015-02-02T21:02:36Z" finished-at="2015-02-02T21:05:04Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="102263" started-at="2015-01-28T16:10:38Z" finished-at="2015-01-28T16:12:20Z">
+    <test name="Command line test" duration-ms="147724" started-at="2015-02-02T21:02:36Z" finished-at="2015-02-02T21:05:04Z">
       <class name="com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test">
-        <test-method status="SKIP" signature="mixedCartRegularAddressSce1Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@73ad2d6]" name="mixedCartRegularAddressSce1Test" duration-ms="78" started-at="2015-01-28T11:10:45Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:10:45Z">
+        <test-method status="SKIP" signature="mixedCartRegularAddressSce1Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@1ce92674]" name="mixedCartRegularAddressSce1Test" duration-ms="93" started-at="2015-02-02T16:02:47Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:02:48Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mixedCartRegularAddressSce1Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@73ad2d6]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:45Z" finished-at="2015-01-28T11:10:45Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@1ce92674]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:48Z" finished-at="2015-02-02T16:02:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=mixedCartRegularAddressSce1Test status=SKIP method=MixedCartRegularAddressSce1Test.mixedCartRegularAddressSce1Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@73ad2d6] output={null}]]]>
+                <![CDATA[[TestResult name=mixedCartRegularAddressSce1Test status=SKIP method=MixedCartRegularAddressSce1Test.mixedCartRegularAddressSce1Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@1ce92674] output={null}]]]>
               </value>
             </param>
           </params>
@@ -76,83 +76,87 @@
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test -->
       <class name="com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@59ec2012]" name="beforeTest" is-config="true" duration-ms="5634" started-at="2015-01-28T11:10:38Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@204f30ec]" name="beforeTest" is-config="true" duration-ms="9620" started-at="2015-02-02T16:02:36Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@553f17c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@59ec2012]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@6fd02e5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@4cf777e8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@3c0ecd4b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@5f341870]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@5bcab519]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@2f686d1f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@1ce92674]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@4f7d0008]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.NewTest@5700d6b1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@1ce92674]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@402a079c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@553f17c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.StrangeLoopTest@4f7d0008]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@402a079c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3fee9989]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@4cf777e8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@5700d6b1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@e45f292]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@e45f292]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@7085bdee]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@7085bdee]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@3fee9989]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6fd02e5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@5f341870]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.StrangeLoopTest@589838eb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@2f686d1f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@73ad2d6]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.NewTest@5bcab519]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@77cd7a0]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@73ad2d6]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6500df86]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:44Z" finished-at="2015-01-28T11:10:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.StoriaSamplerEReaderTest@271053e1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="cartMergSigninDuringCheckoutSce5Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@59ec2012]" name="cartMergSigninDuringCheckoutSce5Test" duration-ms="125" started-at="2015-01-28T11:10:45Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:10:45Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@5f2108b5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:45Z" finished-at="2015-02-02T16:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="cartMergSigninDuringCheckoutSce5Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@204f30ec]" name="cartMergSigninDuringCheckoutSce5Test" duration-ms="62" started-at="2015-02-02T16:04:44Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -208,230 +212,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartMergSigninDuringCheckoutSce5Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@59ec2012]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:45Z" finished-at="2015-01-28T11:10:45Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@204f30ec]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:44Z" finished-at="2015-02-02T16:04:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cartMergSigninDuringCheckoutSce5Test status=SKIP method=CartMergSigninDuringCheckoutSce5Test.cartMergSigninDuringCheckoutSce5Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@59ec2012] output={null}]]]>
+                <![CDATA[[TestResult name=cartMergSigninDuringCheckoutSce5Test status=SKIP method=CartMergSigninDuringCheckoutSce5Test.cartMergSigninDuringCheckoutSce5Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@204f30ec] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@59ec2012]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:02Z" finished-at="2015-01-28T11:12:03Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test@204f30ec]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:45Z" finished-at="2015-02-02T16:04:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@77cd7a0]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:03Z" finished-at="2015-01-28T11:12:04Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@73ad2d6]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:46Z" finished-at="2015-02-02T16:04:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@3fee9989]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:04Z" finished-at="2015-01-28T11:12:05Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@7085bdee]" name="shutDriver" is-config="true" duration-ms="1015" started-at="2015-02-02T16:04:47Z" finished-at="2015-02-02T16:04:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@73ad2d6]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:05Z" finished-at="2015-01-28T11:12:06Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce1Test@1ce92674]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:48Z" finished-at="2015-02-02T16:04:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@7085bdee]" name="shutDriver" is-config="true" duration-ms="1001" started-at="2015-01-28T11:12:06Z" finished-at="2015-01-28T11:12:07Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@e45f292]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-02-02T16:04:49Z" finished-at="2015-02-02T16:04:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@e45f292]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:07Z" finished-at="2015-01-28T11:12:08Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@4cf777e8]" name="shutDriver" is-config="true" duration-ms="1001" started-at="2015-02-02T16:04:50Z" finished-at="2015-02-02T16:04:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@2f686d1f]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:08Z" finished-at="2015-01-28T11:12:09Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3fee9989]" name="shutDriver" is-config="true" duration-ms="1015" started-at="2015-02-02T16:04:51Z" finished-at="2015-02-02T16:04:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@6fd02e5]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:09Z" finished-at="2015-01-28T11:12:10Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@5f341870]" name="shutDriver" is-config="true" duration-ms="1029" started-at="2015-02-02T16:04:52Z" finished-at="2015-02-02T16:04:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:10Z" finished-at="2015-01-28T11:12:11Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:53Z" finished-at="2015-02-02T16:04:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@3c0ecd4b]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:11Z" finished-at="2015-01-28T11:12:12Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@553f17c]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:54Z" finished-at="2015-02-02T16:04:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@5f341870]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:12Z" finished-at="2015-01-28T11:12:13Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@59ec2012]" name="shutDriver" is-config="true" duration-ms="1003" started-at="2015-02-02T16:04:55Z" finished-at="2015-02-02T16:04:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@402a079c]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:13Z" finished-at="2015-01-28T11:12:14Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@4f7d0008]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:56Z" finished-at="2015-02-02T16:04:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@553f17c]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:14Z" finished-at="2015-01-28T11:12:15Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@5700d6b1]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:57Z" finished-at="2015-02-02T16:04:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@1ce92674]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:15Z" finished-at="2015-01-28T11:12:16Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@2f686d1f]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:58Z" finished-at="2015-02-02T16:05:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@4cf777e8]" name="shutDriver" is-config="true" duration-ms="1001" started-at="2015-01-28T11:12:16Z" finished-at="2015-01-28T11:12:17Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@5f2108b5]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:05:00Z" finished-at="2015-02-02T16:05:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@5bcab519]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:17Z" finished-at="2015-01-28T11:12:18Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@402a079c]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:05:01Z" finished-at="2015-02-02T16:05:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6500df86]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:18Z" finished-at="2015-01-28T11:12:19Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6fd02e5]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:05:02Z" finished-at="2015-02-02T16:05:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.misc.StrangeLoopTest@4f7d0008]" name="shutDriver" is-config="true" duration-ms="1000" started-at="2015-01-28T11:12:19Z" finished-at="2015-01-28T11:12:20Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.misc.StrangeLoopTest@589838eb]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:05:03Z" finished-at="2015-02-02T16:05:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
       </class> <!-- com.scholastic.sso.shippingValidation.CartMergSigninDuringCheckoutSce5Test -->
-      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test">
-        <test-method status="SKIP" signature="shippingChargesMisc10Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@6fd02e5]" name="shippingChargesMisc10Test" duration-ms="54" started-at="2015-01-28T11:11:51Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:11:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Runmode=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping the test - ShippingChargesMisc10Test - inside the suite - ShippingValidationSuite]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping the test - ShippingChargesMisc10Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test.shippingChargesMisc10Test(ShippingChargesMisc10Test.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shippingChargesMisc10Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@6fd02e5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:51Z" finished-at="2015-01-28T11:11:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=shippingChargesMisc10Test status=SKIP method=ShippingChargesMisc10Test.shippingChargesMisc10Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@6fd02e5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test -->
-      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test">
-        <test-method status="SKIP" signature="shippingChargesMisc1Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759]" name="shippingChargesMisc1Test" duration-ms="50" started-at="2015-01-28T11:12:00Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:12:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Runmode=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping the test - ShippingChargesMisc1Test - inside the suite - ShippingValidationSuite]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping the test - ShippingChargesMisc1Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test.shippingChargesMisc1Test(ShippingChargesMisc1Test.java:46)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shippingChargesMisc1Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:12:00Z" finished-at="2015-01-28T11:12:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=shippingChargesMisc1Test status=SKIP method=ShippingChargesMisc1Test.shippingChargesMisc1Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test -->
       <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test">
-        <test-method status="SKIP" signature="shippingChargesMisc8Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@5bcab519]" name="shippingChargesMisc8Test" duration-ms="30" started-at="2015-01-28T11:11:52Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="SKIP" signature="shippingChargesMisc8Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@402a079c]" name="shippingChargesMisc8Test" duration-ms="31" started-at="2015-02-02T16:04:03Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:03Z">
           <params>
             <param index="0">
               <value>
@@ -487,11 +353,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingChargesMisc8Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@5bcab519]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:52Z" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@402a079c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:03Z" finished-at="2015-02-02T16:04:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shippingChargesMisc8Test status=SKIP method=ShippingChargesMisc8Test.shippingChargesMisc8Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@5bcab519] output={null}]]]>
+                <![CDATA[[TestResult name=shippingChargesMisc8Test status=SKIP method=ShippingChargesMisc8Test.shippingChargesMisc8Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test@402a079c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -499,8 +365,216 @@
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc8Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test">
+        <test-method status="SKIP" signature="shippingChargesMisc1Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759]" name="shippingChargesMisc1Test" duration-ms="93" started-at="2015-02-02T16:04:03Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test - ShippingChargesMisc1Test - inside the suite - ShippingValidationSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test - ShippingChargesMisc1Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test.shippingChargesMisc1Test(ShippingChargesMisc1Test.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingChargesMisc1Test -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:03Z" finished-at="2015-02-02T16:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shippingChargesMisc1Test status=SKIP method=ShippingChargesMisc1Test.shippingChargesMisc1Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc1Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test">
+        <test-method status="SKIP" signature="shippingChargesMisc10Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@5f341870]" name="shippingChargesMisc10Test" duration-ms="62" started-at="2015-02-02T16:04:03Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test - ShippingChargesMisc10Test - inside the suite - ShippingValidationSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test - ShippingChargesMisc10Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test.shippingChargesMisc10Test(ShippingChargesMisc10Test.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingChargesMisc10Test -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@5f341870]" name="takeScreenShotOnFailure" is-config="true" duration-ms="16" started-at="2015-02-02T16:04:03Z" finished-at="2015-02-02T16:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shippingChargesMisc10Test status=SKIP method=ShippingChargesMisc10Test.shippingChargesMisc10Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test@5f341870] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc10Test -->
+      <class name="com.scholastic.sso.misc.StoriaSamplerEReaderTest">
+        <test-method status="FAIL" signature="storiaSamplerEReaderTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.StoriaSamplerEReaderTest@271053e1]" name="storiaSamplerEReaderTest" duration-ms="39665" started-at="2015-02-02T16:04:03Z" data-provider="MiscDataProvider" finished-at="2015-02-02T16:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.scholastic.sso.misc.StoriaSamplerEReaderTest.storiaSamplerEReaderTest(StoriaSamplerEReaderTest.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storiaSamplerEReaderTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.misc.StoriaSamplerEReaderTest@271053e1]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1190" started-at="2015-02-02T16:04:43Z" finished-at="2015-02-02T16:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=storiaSamplerEReaderTest status=FAILURE method=StoriaSamplerEReaderTest.storiaSamplerEReaderTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.StoriaSamplerEReaderTest@271053e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.scholastic.sso.misc.StoriaSamplerEReaderTest -->
       <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test">
-        <test-method status="SKIP" signature="shippingChargesMisc6Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@1ce92674]" name="shippingChargesMisc6Test" duration-ms="35" started-at="2015-01-28T11:11:52Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="SKIP" signature="shippingChargesMisc6Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@2f686d1f]" name="shippingChargesMisc6Test" duration-ms="31" started-at="2015-02-02T16:04:02Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:02Z">
           <params>
             <param index="0">
               <value>
@@ -556,11 +630,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingChargesMisc6Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@1ce92674]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:52Z" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@2f686d1f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:02Z" finished-at="2015-02-02T16:04:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shippingChargesMisc6Test status=SKIP method=ShippingChargesMisc6Test.shippingChargesMisc6Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@1ce92674] output={null}]]]>
+                <![CDATA[[TestResult name=shippingChargesMisc6Test status=SKIP method=ShippingChargesMisc6Test.shippingChargesMisc6Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test@2f686d1f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -568,77 +642,8 @@
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc6Test -->
-      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test">
-        <test-method status="SKIP" signature="shippingChargesMisc3Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@5f341870]" name="shippingChargesMisc3Test" duration-ms="84" started-at="2015-01-28T11:11:52Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:11:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Runmode=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping the test - ShippingChargesMisc3Test - inside the suite - ShippingValidationSuite]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping the test - ShippingChargesMisc3Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test.shippingChargesMisc3Test(ShippingChargesMisc3Test.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shippingChargesMisc3Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@5f341870]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:52Z" finished-at="2015-01-28T11:11:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=shippingChargesMisc3Test status=SKIP method=ShippingChargesMisc3Test.shippingChargesMisc3Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@5f341870] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test -->
       <class name="com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test">
-        <test-method status="SKIP" signature="mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@3fee9989]" name="mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test" duration-ms="277" started-at="2015-01-28T11:10:45Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:10:45Z">
+        <test-method status="SKIP" signature="mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@7085bdee]" name="mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test" duration-ms="296" started-at="2015-02-02T16:02:47Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:02:47Z">
           <params>
             <param index="0">
               <value>
@@ -694,11 +699,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@3fee9989]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:45Z" finished-at="2015-01-28T11:10:45Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@7085bdee]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:47Z" finished-at="2015-02-02T16:02:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test status=SKIP method=MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test.mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@3fee9989] output={null}]]]>
+                <![CDATA[[TestResult name=mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test status=SKIP method=MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test.mixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test@7085bdee] output={null}]]]>
               </value>
             </param>
           </params>
@@ -706,8 +711,77 @@
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test">
+        <test-method status="SKIP" signature="shippingChargesMisc3Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@59ec2012]" name="shippingChargesMisc3Test" duration-ms="63" started-at="2015-02-02T16:04:02Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test - ShippingChargesMisc3Test - inside the suite - ShippingValidationSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test - ShippingChargesMisc3Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test.shippingChargesMisc3Test(ShippingChargesMisc3Test.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingChargesMisc3Test -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@59ec2012]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:02Z" finished-at="2015-02-02T16:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shippingChargesMisc3Test status=SKIP method=ShippingChargesMisc3Test.shippingChargesMisc3Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test@59ec2012] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc3Test -->
       <class name="com.scholastic.sso.misc.StrangeLoopTest">
-        <test-method status="SKIP" signature="strangeLoopTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.StrangeLoopTest@4f7d0008]" name="strangeLoopTest" duration-ms="120" started-at="2015-01-28T11:12:00Z" data-provider="MiscDataProvider" finished-at="2015-01-28T11:12:00Z">
+        <test-method status="SKIP" signature="strangeLoopTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.StrangeLoopTest@589838eb]" name="strangeLoopTest" duration-ms="31" started-at="2015-02-02T16:04:44Z" data-provider="MiscDataProvider" finished-at="2015-02-02T16:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -765,11 +839,7 @@
         </test-method> <!-- strangeLoopTest -->
       </class> <!-- com.scholastic.sso.misc.StrangeLoopTest -->
       <class name="com.scholastic.sso.misc.AddEditDeleteCreditCardTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="beforeTest" is-config="true" duration-ms="1" started-at="2015-01-28T11:12:00Z" finished-at="2015-01-28T11:12:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="addCreditCardInfoTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="addCreditCardInfoTest" duration-ms="67" started-at="2015-01-28T11:12:00Z" data-provider="MiscDataProvider" finished-at="2015-01-28T11:12:00Z">
+        <test-method status="SKIP" signature="addCreditCardInfoTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="addCreditCardInfoTest" duration-ms="31" started-at="2015-02-02T16:04:44Z" data-provider="MiscDataProvider" finished-at="2015-02-02T16:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -825,21 +895,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCreditCardInfoTest -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="shutDriver" is-config="true" duration-ms="2022" started-at="2015-01-28T11:12:00Z" finished-at="2015-01-28T11:12:02Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:44Z" finished-at="2015-02-02T16:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="shutDriver" is-config="true" duration-ms="1014" started-at="2015-02-02T16:04:44Z" finished-at="2015-02-02T16:04:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
-        <test-method status="SKIP" signature="editCreditCardInfoTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="editCreditCardInfoTest" duration-ms="1" started-at="2015-01-28T11:12:02Z" data-provider="MiscDataProvider" depends-on-methods="com.scholastic.sso.misc.AddEditDeleteCreditCardTest.addCreditCardInfoTest" finished-at="2015-01-28T11:12:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editCreditCardInfoTest -->
-        <test-method status="SKIP" signature="deleteCreditCardInfoTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="deleteCreditCardInfoTest" duration-ms="0" started-at="2015-01-28T11:12:02Z" data-provider="MiscDataProvider" depends-on-methods="com.scholastic.sso.misc.AddEditDeleteCreditCardTest.addCreditCardInfoTest" finished-at="2015-01-28T11:12:02Z">
+        <test-method status="SKIP" signature="deleteCreditCardInfoTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="deleteCreditCardInfoTest" duration-ms="0" started-at="2015-02-02T16:04:45Z" data-provider="MiscDataProvider" depends-on-methods="com.scholastic.sso.misc.AddEditDeleteCreditCardTest.addCreditCardInfoTest" finished-at="2015-02-02T16:04:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCreditCardInfoTest -->
+        <test-method status="SKIP" signature="editCreditCardInfoTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.AddEditDeleteCreditCardTest@42dafa95]" name="editCreditCardInfoTest" duration-ms="0" started-at="2015-02-02T16:04:45Z" data-provider="MiscDataProvider" depends-on-methods="com.scholastic.sso.misc.AddEditDeleteCreditCardTest.addCreditCardInfoTest" finished-at="2015-02-02T16:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCreditCardInfoTest -->
       </class> <!-- com.scholastic.sso.misc.AddEditDeleteCreditCardTest -->
       <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test">
-        <test-method status="SKIP" signature="shippingChargesMisc2Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@3c0ecd4b]" name="shippingChargesMisc2Test" duration-ms="30" started-at="2015-01-28T11:12:00Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:12:00Z">
+        <test-method status="SKIP" signature="shippingChargesMisc2Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@553f17c]" name="shippingChargesMisc2Test" duration-ms="15" started-at="2015-02-02T16:04:44Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -895,11 +969,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingChargesMisc2Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@3c0ecd4b]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2015-01-28T11:12:00Z" finished-at="2015-01-28T11:12:00Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@553f17c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:44Z" finished-at="2015-02-02T16:04:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shippingChargesMisc2Test status=SKIP method=ShippingChargesMisc2Test.shippingChargesMisc2Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@3c0ecd4b] output={null}]]]>
+                <![CDATA[[TestResult name=shippingChargesMisc2Test status=SKIP method=ShippingChargesMisc2Test.shippingChargesMisc2Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test@553f17c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -908,7 +982,7 @@
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc2Test -->
       <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test">
-        <test-method status="SKIP" signature="shippingChargesMisc7Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@4cf777e8]" name="shippingChargesMisc7Test" duration-ms="38" started-at="2015-01-28T11:11:52Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="SKIP" signature="shippingChargesMisc7Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@5f2108b5]" name="shippingChargesMisc7Test" duration-ms="31" started-at="2015-02-02T16:04:02Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:03Z">
           <params>
             <param index="0">
               <value>
@@ -964,11 +1038,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingChargesMisc7Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@4cf777e8]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:52Z" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@5f2108b5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:03Z" finished-at="2015-02-02T16:04:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shippingChargesMisc7Test status=SKIP method=ShippingChargesMisc7Test.shippingChargesMisc7Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@4cf777e8] output={null}]]]>
+                <![CDATA[[TestResult name=shippingChargesMisc7Test status=SKIP method=ShippingChargesMisc7Test.shippingChargesMisc7Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test@5f2108b5] output={null}]]]>
               </value>
             </param>
           </params>
@@ -977,7 +1051,7 @@
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc7Test -->
       <class name="com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test">
-        <test-method status="SKIP" signature="mixedCartRegularAddressSce2Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@7085bdee]" name="mixedCartRegularAddressSce2Test" duration-ms="156" started-at="2015-01-28T11:10:45Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:10:46Z">
+        <test-method status="SKIP" signature="mixedCartRegularAddressSce2Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@e45f292]" name="mixedCartRegularAddressSce2Test" duration-ms="140" started-at="2015-02-02T16:02:48Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:02:48Z">
           <params>
             <param index="0">
               <value>
@@ -1033,11 +1107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mixedCartRegularAddressSce2Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@7085bdee]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:46Z" finished-at="2015-01-28T11:10:46Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@e45f292]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:48Z" finished-at="2015-02-02T16:02:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=mixedCartRegularAddressSce2Test status=SKIP method=MixedCartRegularAddressSce2Test.mixedCartRegularAddressSce2Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@7085bdee] output={null}]]]>
+                <![CDATA[[TestResult name=mixedCartRegularAddressSce2Test status=SKIP method=MixedCartRegularAddressSce2Test.mixedCartRegularAddressSce2Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test@e45f292] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1046,7 +1120,7 @@
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.MixedCartRegularAddressSce2Test -->
       <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test">
-        <test-method status="SKIP" signature="shippingChargesMisc4Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@402a079c]" name="shippingChargesMisc4Test" duration-ms="359" started-at="2015-01-28T11:11:51Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="SKIP" signature="shippingChargesMisc4Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@4f7d0008]" name="shippingChargesMisc4Test" duration-ms="172" started-at="2015-02-02T16:04:44Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -1102,11 +1176,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingChargesMisc4Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@402a079c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:52Z" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@4f7d0008]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:44Z" finished-at="2015-02-02T16:04:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shippingChargesMisc4Test status=SKIP method=ShippingChargesMisc4Test.shippingChargesMisc4Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@402a079c] output={null}]]]>
+                <![CDATA[[TestResult name=shippingChargesMisc4Test status=SKIP method=ShippingChargesMisc4Test.shippingChargesMisc4Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test@4f7d0008] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1114,101 +1188,8 @@
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc4Test -->
-      <class name="com.scholastic.sso.misc.SearchValidationTest">
-        <test-method status="PASS" signature="searchValidationTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@2f686d1f]" name="searchValidationTest" duration-ms="65422" started-at="2015-01-28T11:10:46Z" data-provider="MiscDataProvider" finished-at="2015-01-28T11:11:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Runmode=Y}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchValidationTest -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@2f686d1f]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:51Z" finished-at="2015-01-28T11:11:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchValidationTest status=SUCCESS method=SearchValidationTest.searchValidationTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@2f686d1f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-      </class> <!-- com.scholastic.sso.misc.SearchValidationTest -->
-      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test">
-        <test-method status="SKIP" signature="shippingChargesMisc5Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@553f17c]" name="shippingChargesMisc5Test" duration-ms="33" started-at="2015-01-28T11:12:00Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:12:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Runmode=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Skipping the test - ShippingChargesMisc5Test - inside the suite - ShippingValidationSuite]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping the test - ShippingChargesMisc5Test - inside the suite - ShippingValidationSuite
-	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
-	at com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test.shippingChargesMisc5Test(ShippingChargesMisc5Test.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shippingChargesMisc5Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@553f17c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:12:00Z" finished-at="2015-01-28T11:12:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=shippingChargesMisc5Test status=SKIP method=ShippingChargesMisc5Test.shippingChargesMisc5Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@553f17c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenShotOnFailure -->
-      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test -->
       <class name="com.scholastic.sso.placeOrders.OrderBooksTest">
-        <test-method status="SKIP" signature="orderBooksTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.placeOrders.OrderBooksTest@271053e1]" name="orderBooksTest" duration-ms="39" started-at="2015-01-28T11:11:52Z" data-provider="PlaceOrdersDataProvider" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="SKIP" signature="orderBooksTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.placeOrders.OrderBooksTest@31a5c39e]" name="orderBooksTest" duration-ms="140" started-at="2015-02-02T16:02:48Z" data-provider="PlaceOrdersDataProvider" finished-at="2015-02-02T16:02:48Z">
           <params>
             <param index="0">
               <value>
@@ -1264,17 +1245,110 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderBooksTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.placeOrders.OrderBooksTest@271053e1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:52Z" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.scholastic.sso.placeOrders.OrderBooksTest@31a5c39e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:48Z" finished-at="2015-02-02T16:02:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.placeOrders.OrderBooksTest@271053e1]" name="shutDriver" is-config="true" duration-ms="2021" started-at="2015-01-28T11:11:52Z" finished-at="2015-01-28T11:11:54Z">
+        <test-method status="PASS" signature="shutDriver()[pri:0, instance:com.scholastic.sso.placeOrders.OrderBooksTest@31a5c39e]" name="shutDriver" is-config="true" duration-ms="3715" started-at="2015-02-02T16:02:48Z" finished-at="2015-02-02T16:02:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDriver -->
       </class> <!-- com.scholastic.sso.placeOrders.OrderBooksTest -->
+      <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test">
+        <test-method status="SKIP" signature="shippingChargesMisc5Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@5700d6b1]" name="shippingChargesMisc5Test" duration-ms="31" started-at="2015-02-02T16:04:02Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test - ShippingChargesMisc5Test - inside the suite - ShippingValidationSuite]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test - ShippingChargesMisc5Test - inside the suite - ShippingValidationSuite
+	at com.scholastic.sso.TestBase.validateRunmodes(TestBase.java:95)
+	at com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test.shippingChargesMisc5Test(ShippingChargesMisc5Test.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingChargesMisc5Test -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@5700d6b1]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:02Z" finished-at="2015-02-02T16:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shippingChargesMisc5Test status=SKIP method=ShippingChargesMisc5Test.shippingChargesMisc5Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test@5700d6b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc5Test -->
+      <class name="com.scholastic.sso.misc.SearchValidationTest">
+        <test-method status="PASS" signature="searchValidationTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3fee9989]" name="searchValidationTest" duration-ms="47995" started-at="2015-02-02T16:03:14Z" data-provider="MiscDataProvider" finished-at="2015-02-02T16:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidationTest -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3fee9989]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:02Z" finished-at="2015-02-02T16:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchValidationTest status=SUCCESS method=SearchValidationTest.searchValidationTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.misc.SearchValidationTest@3fee9989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.scholastic.sso.misc.SearchValidationTest -->
       <class name="com.scholastic.sso.placeOrders.QuickLookOrderItemsTest">
-        <test-method status="SKIP" signature="quickLookOrderItemsTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@e45f292]" name="quickLookOrderItemsTest" duration-ms="109" started-at="2015-01-28T11:10:46Z" data-provider="PlaceOrdersDataProvider" finished-at="2015-01-28T11:10:46Z">
+        <test-method status="SKIP" signature="quickLookOrderItemsTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@4cf777e8]" name="quickLookOrderItemsTest" duration-ms="78" started-at="2015-02-02T16:03:14Z" data-provider="PlaceOrdersDataProvider" finished-at="2015-02-02T16:03:14Z">
           <params>
             <param index="0">
               <value>
@@ -1330,11 +1404,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quickLookOrderItemsTest -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@e45f292]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:10:46Z" finished-at="2015-01-28T11:10:46Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@4cf777e8]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:03:14Z" finished-at="2015-02-02T16:03:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=quickLookOrderItemsTest status=SKIP method=QuickLookOrderItemsTest.quickLookOrderItemsTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@e45f292] output={null}]]]>
+                <![CDATA[[TestResult name=quickLookOrderItemsTest status=SKIP method=QuickLookOrderItemsTest.quickLookOrderItemsTest(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.placeOrders.QuickLookOrderItemsTest@4cf777e8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1343,7 +1417,7 @@
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.placeOrders.QuickLookOrderItemsTest -->
       <class name="com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test">
-        <test-method status="SKIP" signature="shippingChargesMisc9Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6500df86]" name="shippingChargesMisc9Test" duration-ms="41" started-at="2015-01-28T11:11:52Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="SKIP" signature="shippingChargesMisc9Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6fd02e5]" name="shippingChargesMisc9Test" duration-ms="93" started-at="2015-02-02T16:04:03Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:04:03Z">
           <params>
             <param index="0">
               <value>
@@ -1399,11 +1473,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingChargesMisc9Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6500df86]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:11:52Z" finished-at="2015-01-28T11:11:52Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6fd02e5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:04:03Z" finished-at="2015-02-02T16:04:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shippingChargesMisc9Test status=SKIP method=ShippingChargesMisc9Test.shippingChargesMisc9Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6500df86] output={null}]]]>
+                <![CDATA[[TestResult name=shippingChargesMisc9Test status=SKIP method=ShippingChargesMisc9Test.shippingChargesMisc9Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test@6fd02e5] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1412,7 +1486,7 @@
         </test-method> <!-- takeScreenShotOnFailure -->
       </class> <!-- com.scholastic.sso.shippingValidation.ShippingChargesMisc9Test -->
       <class name="com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test">
-        <test-method status="SKIP" signature="mixedCartPOBoxAddressSce3Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@77cd7a0]" name="mixedCartPOBoxAddressSce3Test" duration-ms="37" started-at="2015-01-28T11:12:00Z" data-provider="ShippingValidationDataProvider" finished-at="2015-01-28T11:12:00Z">
+        <test-method status="SKIP" signature="mixedCartPOBoxAddressSce3Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@73ad2d6]" name="mixedCartPOBoxAddressSce3Test" duration-ms="140" started-at="2015-02-02T16:02:47Z" data-provider="ShippingValidationDataProvider" finished-at="2015-02-02T16:02:47Z">
           <params>
             <param index="0">
               <value>
@@ -1468,11 +1542,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mixedCartPOBoxAddressSce3Test -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@77cd7a0]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-01-28T11:12:00Z" finished-at="2015-01-28T11:12:00Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@73ad2d6]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2015-02-02T16:02:47Z" finished-at="2015-02-02T16:02:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=mixedCartPOBoxAddressSce3Test status=SKIP method=MixedCartPOBoxAddressSce3Test.mixedCartPOBoxAddressSce3Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@77cd7a0] output={null}]]]>
+                <![CDATA[[TestResult name=mixedCartPOBoxAddressSce3Test status=SKIP method=MixedCartPOBoxAddressSce3Test.mixedCartPOBoxAddressSce3Test(java.util.Hashtable)[pri:0, instance:com.scholastic.sso.shippingValidation.MixedCartPOBoxAddressSce3Test@73ad2d6] output={null}]]]>
               </value>
             </param>
           </params>

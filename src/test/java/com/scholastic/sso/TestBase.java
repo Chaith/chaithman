@@ -60,7 +60,7 @@ public class TestBase {
 			dr = new InternetExplorerDriver();
 			}
 		driver = new EventFiringWebDriver(dr);
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(9, TimeUnit.SECONDS);
 		}
 	}	
 	

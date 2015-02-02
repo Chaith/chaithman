@@ -4,18 +4,16 @@
   <listeners>
     <listener class-name="com.scholastic.sso.CustomListener"/>
   </listeners>
-  <test name="Add Edit and Delete Credit Card Information(failed)">
+  <test name="Search by Filter and Validate the Content Returned(failed)">
     <classes>
-      <class name="com.scholastic.sso.misc.AddEditDeleteCreditCardTest">
+      <class name="com.scholastic.sso.misc.SearchValidationTest">
         <methods>
-          <include name="addCreditCardInfoTest" invocation-numbers="0"/>
-          <include name="editCreditCardInfoTest"/>
-          <include name="beforeTest"/>
-          <include name="deleteCreditCardInfoTest"/>
-          <include name="takeScreenShotOnFailure"/>
           <include name="shutDriver"/>
+          <include name="searchValidationTest"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.scholastic.sso.misc.AddEditDeleteCreditCardTest -->
+      </class> <!-- com.scholastic.sso.misc.SearchValidationTest -->
     </classes>
-  </test> <!-- Add Edit and Delete Credit Card Information(failed) -->
+  </test> <!-- Search by Filter and Validate the Content Returned(failed) -->
 </suite> <!-- Failed suite [Misc Suite] -->

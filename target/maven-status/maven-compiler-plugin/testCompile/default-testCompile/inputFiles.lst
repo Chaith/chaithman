@@ -4,6 +4,7 @@ C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\sch
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\ShippingChargesMisc2Test.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\ShippingChargesMisc5Test.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\MixedCartRegularAddressSce1Test.java
+C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\misc\StoriaSamplerEReaderTest.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\placeOrders\OrderBooksTest.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\CartMergSigninDuringCheckoutSce5Test.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\MixedCartPOBoxRegularAddTaxableNonTaxableStateSce4Test.java
@@ -16,6 +17,7 @@ C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\sch
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\misc\StrangeLoopTest.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\ShippingChargesMisc1Test.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\misc\NewTest.java
+C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\util\ErrorUtil.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\samples\ReadingProps.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\CustomListener.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\ShippingChargesMisc10Test.java
@@ -24,6 +26,7 @@ C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\sch
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\MixedCartRegularAddressSce2Test.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\util\Constants.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\shippingValidation\ShippingChargesMisc7Test.java
+C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\CustomListener_Old.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\misc\SearchValidationTest.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\placeOrders\QuickLookOrderItemsTest.java
 C:\Users\chaitman\Desktop\SeleniumWorkspace\Scholastic_SSO\src\test\java\com\scholastic\sso\util\TestUtil.java
