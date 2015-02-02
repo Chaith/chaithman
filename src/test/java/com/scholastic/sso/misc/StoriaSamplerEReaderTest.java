@@ -96,7 +96,7 @@ public class StoriaSamplerEReaderTest extends TestBase{
 	    WebElement closeBtn = driver.findElement(By.xpath("//*[@id='reader']/div[14]/div"));
 	    closeBtn.click();
 	    
-//	    driver.quit();
+	    driver.quit();
 	}
 	
 	@AfterMethod
