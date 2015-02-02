@@ -84,12 +84,12 @@ public class StoriaSamplerEReaderTest extends TestBase{
 	    	Thread.sleep(2000);
 	    
     }
-	    try{
-	    Assert.assertEquals("A", "B");
-	    }catch (Throwable t){
-	    	APPLICATION_LOG.debug(t);
-	    	Assert.fail();
-	    }
+//	    try{
+//	    Assert.assertEquals("A", "B");
+//	    }catch (Throwable t){
+//	    	APPLICATION_LOG.debug(t);
+//	    	Assert.fail();
+//	    }
 	    
 //	    Assert.assertEquals("A", "B");
 	    
