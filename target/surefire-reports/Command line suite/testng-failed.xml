@@ -46,7 +46,8 @@
       <class name="com.scholastic.sso.misc.StrangeLoopTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="hoverAndClickMenuTabs"/>
+          <include name="strangeLoopTest" invocation-numbers="0"/>
+          <include name="shutDriver"/>
         </methods>
       </class> <!-- com.scholastic.sso.misc.StrangeLoopTest -->
       <class name="com.scholastic.sso.placeOrders.OrderBooksTest">

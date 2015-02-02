@@ -6,6 +6,7 @@ public class Constants {
 	public static String PLACEORDERS_SUITE="PlaceOrdersSuite";
 	public static String SHIPPINGVALIDATION_SUITE="ShippingValidationSuite";
 	public static String MISC_SUITE="MiscSuite";
+	public static String ROOT_SUITE="SSO Project";
 	
 	//Sheets
 	public static String SUITE_SHEET="Suite";

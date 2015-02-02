@@ -21,6 +21,12 @@
     </classes>
 </test>
 
+<!-- <test name="Strange Loop">
+    <classes>
+        <class name="com.scholastic.sso.misc.StrangeLoopTest" ></class>  
+    </classes>
+</test> -->
+
 
 
 </suite>

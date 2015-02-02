@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.scholastic.sso.misc.SearchValidationTest">
+      <class name="com.scholastic.sso.misc.StrangeLoopTest">
         <methods>
-          <include name="searchValidationTest" invocation-numbers="0"/>
-          <include name="takeScreenShotOnFailure"/>
           <include name="beforeTest"/>
+          <include name="strangeLoopTest" invocation-numbers="0"/>
+          <include name="shutDriver"/>
         </methods>
-      </class> <!-- com.scholastic.sso.misc.SearchValidationTest -->
+      </class> <!-- com.scholastic.sso.misc.StrangeLoopTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

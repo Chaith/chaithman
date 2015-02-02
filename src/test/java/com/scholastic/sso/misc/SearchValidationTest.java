@@ -21,6 +21,7 @@ import org.testng.annotations.Test;
 
 import com.scholastic.sso.TestBase;
 import com.scholastic.sso.util.Constants;
+import com.scholastic.sso.util.ErrorUtil;
 import com.scholastic.sso.util.TestDataProvider;
 import com.scholastic.sso.util.TestUtil;
 import com.scholastic.sso.util.Xls_Reader;
@@ -83,13 +84,15 @@ public class SearchValidationTest extends TestBase{
 				noResult = driver.findElement(By.xpath("//*[@id='noresults']"));
 				}catch(Throwable t){
 //					APPLICATION_LOG.debug("No Results Found - text NOT Found");
+					ErrorUtil.addVerificationFailure(t);
 				}
 			
 			try{
 			H2 = driver.findElement(By.xpath("//*[@id='CurrentSearchBox']/ul/li[2]/h2")).getText();
 			System.out.println(H2);
 			}catch(Throwable t){
-				APPLICATION_LOG.debug("H2 NOT Found");
+//				APPLICATION_LOG.debug("H2 NOT Found");
+				ErrorUtil.addVerificationFailure(t);
 			}
 			
 			if(H1.equals(keyW) && H2.equals(cat) ){

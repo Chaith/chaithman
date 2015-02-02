@@ -491,5 +491,49 @@ public class Xls_Reader {
 				}
 	}
 	
+	public boolean setCellData(String sheetName,int colNum,int rowNum, String data){
+		try{
+		fis = new FileInputStream(path); 
+		workbook = new XSSFWorkbook(fis);
+
+		if(rowNum<=0)
+			return false;
+		
+		int index = workbook.getSheetIndex(sheetName);
+		if(index==-1)
+			return false;
+		
+		
+		sheet = workbook.getSheetAt(index);
+		
+		sheet.autoSizeColumn(colNum); 
+		row = sheet.getRow(rowNum-1);
+		if (row == null)
+			row = sheet.createRow(rowNum-1);
+		
+		cell = row.getCell(colNum);	
+		if (cell == null)
+	        cell = row.createCell(colNum);
+
+	    // cell style
+	    //CellStyle cs = workbook.createCellStyle();
+	    //cs.setWrapText(true);
+	    //cell.setCellStyle(cs);
+	    cell.setCellValue(data);
+
+	    fileOut = new FileOutputStream(path);
+
+		workbook.write(fileOut);
+
+	    fileOut.close();	
+
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+	
 	
 }
